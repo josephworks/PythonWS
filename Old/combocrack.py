@@ -1,10 +1,8 @@
-from collections import deque
-
 template = ['5', 'x', 'x', '#', '#', '#']
 
-print template
+print(template)
 
-combs = []
+combs = [""]
 combs.append("5")
 combs.append("#")
 combs.append("#")
@@ -14,7 +12,7 @@ combs.pop(2)
 combs.pop(2)
 combs.pop(1)
 
-toadd = raw_input("Username> ")
+toadd = input("Username> ")
 
 numbs1 = toadd[5]
 numbs2 = toadd[6]
@@ -26,7 +24,7 @@ combs.append(numbs1)
 combs.append(numbs2)
 combs.append(numbs3)
 
-combs.insert(1,numbs2)
-combs.insert(2,digit3)
+combs.insert(1, numbs2)
+combs.insert(2, digit3)
 
-print combs
+print(combs)
