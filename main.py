@@ -57,7 +57,7 @@ while b < 1000:
 i = 256 * 256
 print('The value of i is', i)
 
-a, b = 0, 1
+# a, b = 0, 1
 while b < 1000:
     print(b, end=',')
     a, b = b, a + b
@@ -109,15 +109,17 @@ for n in range(2, 10):
         print(n, 'is a prime number')
 
 
-def fib(n):  # write Fibonacci series up to n
-    """Print a Fibonacci series up to n."""
-    a, b = 0, 1
-    while a < n:
-        print(a, end=' ')
-        a, b = b, a + b
-    print()
+def fibonacci(seq):
+    if seq < 0:
+        print("Incorrect input")
+        # First Fibonacci number is 0
+    elif seq == 1:
+        return 0
+    # Second Fibonacci number is 1
+    elif seq == 2:
+        return 1
+    else:
+        return fibonacci(seq - 1) + fibonacci(seq - 2)
 
 
-# Now call the function we just defined:
-
-fib(2000)
+print(fibonacci(100))
