@@ -1,4 +1,3 @@
-for i in range(100000000):
+for i in range(10000000):
     val = i + 1
-    print
-    val
+    print(val)

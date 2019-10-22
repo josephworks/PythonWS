@@ -1,37 +1,31 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+print(fruits)
 
-print
-fruits
-
-print
 fruits.count('apple')
+print(fruits)
 
-print
 fruits.count('tangerine')
+print(fruits)
 
-print
 fruits.index('banana')
+print(fruits)
 
-print
 fruits.index('banana', 4)  # Find next banana starting a position 4
+print(fruits)
 
 fruits.reverse()
-print
-fruits
+print(fruits)
 
 fruits.append('grape')
-print
-fruits
+print(fruits)
 
 fruits.append('lemon')
-print
-fruits
+print(fruits)
 
 fruits.sort()
-print
-fruits
+print(fruits)
 
 fruits.pop()
+print(fruits)
 
-print
-"----------------------"
+print("----------------------")

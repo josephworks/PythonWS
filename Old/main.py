@@ -7,11 +7,9 @@ for w in words[:]:  # Loop over a slice copy of the entire list.
     if len(w) > 6:
         words.insert(0, w)
 
-print
-words
+print(words)
 
-print
-"-----------"
+print("-----------")
 
 
 def fib2(n):  # return Fibonacci series up to n
@@ -25,5 +23,4 @@ def fib2(n):  # return Fibonacci series up to n
 
 
 f100 = fib2(100)  # call it
-print
-f100  # write the result
+print(f100)  # write the result
