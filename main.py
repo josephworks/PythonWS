@@ -52,15 +52,15 @@ print(x[0])
 a, b = 0, 1
 while b < 1000:
     print(b)
-    a, b = b, a+b
+    a, b = b, a + b
 
-i = 256*256
+i = 256 * 256
 print('The value of i is', i)
 
 a, b = 0, 1
 while b < 1000:
     print(b, end=',')
-    a, b = b, a+b
+    a, b = b, a + b
 
 # x = int(input("Please enter an integer: "))
 x = 1
@@ -87,7 +87,7 @@ for w in words[:]:  # Loop over a slice copy of the entire list.
 
 print(words)
 
-#for i in range(10000000):
+# for i in range(10000000):
 #    print(i)
 
 r = list(range(16))
@@ -102,24 +102,22 @@ for num in range(2, 10):
 for n in range(2, 10):
     for x in range(2, n):
         if n % x == 0:
-            print(n, 'equals', x, '*', n//x)
+            print(n, 'equals', x, '*', n // x)
             break
     else:
         # loop fell through without finding a factor
         print(n, 'is a prime number')
 
 
-def fib(n):    # write Fibonacci series up to n
+def fib(n):  # write Fibonacci series up to n
     """Print a Fibonacci series up to n."""
     a, b = 0, 1
     while a < n:
         print(a, end=' ')
-        a, b = b, a+b
+        a, b = b, a + b
     print()
+
 
 # Now call the function we just defined:
 
-
 fib(2000)
-
-
