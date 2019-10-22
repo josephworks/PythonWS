@@ -1,11 +1,14 @@
+from pip._vendor.distlib.compat import raw_input
+
 alphabetlist = []
 x = int(input("How many words? "))
 
-#number = raw_input("How many words? ")
-#type(number)
+# number = raw_input("How many words? ")
+# type(number)
 
 if x < 2:
-    print "You must have more than 1 word!"
+    print()
+    "You must have more than 1 word!"
     x = int(input("How many words? "))
 
 if x == 2:
@@ -31,7 +34,6 @@ if x == 4:
     alphabetlist.append(toadd)
     toadd = raw_input("4> ")
     alphabetlist.append(toadd)
-
 
 if x == 5:
     toadd = raw_input("1> ")
@@ -136,8 +138,10 @@ if x == 10:
     alphabetlist.append(toadd)
 
 if x > 10:
-    print "Too many words!"
+    print()
+    "Too many words!"
     x = int(input("How many words? "))
 
 alphabetlist.sort()
-print alphabetlist
+print()
+alphabetlist

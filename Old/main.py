@@ -2,23 +2,28 @@
 words = ['cat', 'Meme Man', 'window', 'defenestrate', 'windows 10']
 for w in words:
     print(w, len(w))
-    
+
 for w in words[:]:  # Loop over a slice copy of the entire list.
     if len(w) > 6:
         words.insert(0, w)
 
-print words
+print
+words
 
-print "-----------"
+print
+"-----------"
+
 
 def fib2(n):  # return Fibonacci series up to n
     """Return a list containing the Fibonacci series up to n."""
     result = []
     a, b = 0, 1
     while a < n:
-        result.append(a)    # see below
-        a, b = b, a+b
+        result.append(a)  # see below
+        a, b = b, a + b
     return result
 
-f100 = fib2(100)    # call it
-print f100                # write the result
+
+f100 = fib2(100)  # call it
+print
+f100  # write the result
