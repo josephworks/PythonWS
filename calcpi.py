@@ -1,5 +1,3 @@
-import math
-
-pi = math.pi
+from math import pi
 
 print(pi)
