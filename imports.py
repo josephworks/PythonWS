@@ -1,3 +1,3 @@
-from pip._vendor.distlib.compat import raw_input
+from math import pi
 import random
 import math
