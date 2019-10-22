@@ -2,7 +2,7 @@ template = ['5', 'x', 'x', '#', '#', '#']
 
 print(template)
 
-combs = []
+combs = ['5', 'x', 'x', '#']
 
 combs.pop(2)
 combs.pop(2)
