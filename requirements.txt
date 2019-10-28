@@ -1,1 +1,9 @@
+altair
+vega_datasets
+google
+tensorboard
+IPython
+matplotlib
+numpy
+tensorflow
 pip
